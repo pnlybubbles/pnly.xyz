@@ -1,0 +1,12 @@
+{
+  "name": "pnly.jp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "start": "http-server"
+  }
+}
