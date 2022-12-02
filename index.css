@@ -14,7 +14,7 @@ body {
   padding: 20px;
 }
 
- #title {
+#title {
   text-align: center;
   font-size: 80px;
   color: #44456B;
@@ -22,6 +22,12 @@ body {
   padding-bottom: 30px;
   border-bottom: solid 1px #C2606E;
   letter-spacing: 2px;
+}
+
+@media (max-width: 500px) {
+  #title {
+    font-size: 70px;
+  }
 }
 
 #links {
@@ -33,7 +39,7 @@ body {
 }
 
 #links li {
-  margin-top: 5px;
+  margin-top: 8px;
   text-align: center;
 }
 
@@ -41,6 +47,7 @@ body {
   font-size: 15px;
   color: #44456B;
   text-decoration: none;
+  text-underline-offset: 0.3em;
 }
 
 #links li a:hover {
@@ -58,5 +65,4 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 300px;
 }
