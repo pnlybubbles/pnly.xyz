@@ -1,3 +1,3 @@
 # pnly's website
 
-[http://pnly.xyz](http://pnly.xyz)
+[https://pnly.xyz](https://pnly.xyz)
