@@ -82,6 +82,15 @@ body.tobari-page .tagline {
   color: rgb(8, 12, 37);
 }
 
+body.tobari-page #title {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+body.tobari-page #border {
+  border: none;
+}
+
 body.privacy-page {
   background-color: rgb(240, 237, 232);
   color: rgb(8, 12, 37);
@@ -112,6 +121,15 @@ body.privacy-page {
   font-family: 'Nixie One', cursive;
 }
 
+body.privacy-page #border {
+  border: none;
+}
+
+body.privacy-page .page-title {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
 .page-subtitle {
   margin-top: 10px;
   font-size: 16px;
@@ -132,6 +150,12 @@ body.privacy-page {
   font-weight: 600;
 }
 
+.policy h3 {
+  margin: 26px 0 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
 .policy ul {
   margin: 0 0 18px;
   padding-left: 1.2em;
@@ -139,6 +163,11 @@ body.privacy-page {
 
 .policy li {
   margin-bottom: 8px;
+}
+
+.policy a {
+  color: rgb(8, 12, 37);
+  text-underline-offset: 0.3em;
 }
 
 .page-links {
