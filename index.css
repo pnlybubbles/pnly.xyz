@@ -14,6 +14,11 @@ body {
   padding: 20px;
 }
 
+body.tobari-page {
+  background-color: rgb(240, 237, 232);
+  color: rgb(8, 12, 37);
+}
+
 #title {
   text-align: center;
   font-size: 80px;
@@ -52,6 +57,29 @@ body {
 
 #links li a:hover {
   text-decoration: underline;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 18px;
+  letter-spacing: 0;
+  font-family: 'Muli', sans-serif;
+}
+
+.tagline {
+  margin-top: 22px;
+  text-align: center;
+  color: #44456B;
+  font-size: 14px;
+  line-height: 1.8;
+  white-space: pre-line;
+  font-family: 'Muli', sans-serif;
+}
+
+body.tobari-page #title,
+body.tobari-page #links li a,
+body.tobari-page .tagline {
+  color: rgb(8, 12, 37);
 }
 
 #border {
